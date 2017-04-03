@@ -12,7 +12,8 @@ A simple shopping cart to buy flowers
   6. Invalid user inputs and invalid flower codes will be ignored.
   7. Demonstrates single page application using Angular-route.
   8. Automation testing of each module(controller, services) with Karma and Jasmine.
-  9. Bundle calculation can be found in app/scripts/services/utilities.js
+  9. Bundle calculation library can be found in app/scripts/services/utilities.js
+  10. Test Scripts for Bundle Calculation can be found in test/spec/services/utilities.js
 
 
 ### Install Instructions
