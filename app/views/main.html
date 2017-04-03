@@ -1,0 +1,31 @@
+<div class="container">
+  <h2>Collection</h2>
+  <ul class="row list-unstyled collection">
+    <li class="col-sm-4 well" ng-repeat="(sku, flower) in flowerList">
+      <p>Code: {{sku}}</p>
+      <p>Name: {{flower.name}}</p>
+      <ul class="row">
+        <li ng-repeat="(type,price) in flower.bundleTypePrice">
+          {{type}} &nbsp @ &nbsp ${{price}}
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+
+<div class="container">
+  <h2>Create Order</h2>
+  <form class="form-horizontal">
+    <div class="form-group">
+      <div class="col-sm-12">
+        <textarea class="form-control" rows="6" ng-model="orderInput" placeholder="10 R12&#10;15 L09">
+        </textarea>
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="col-sm-10">
+        <button type="submit" class="btn btn-primary" ng-click="addToCart()">Order</button>
+      </div>
+    </div>
+  </form>
+</div>

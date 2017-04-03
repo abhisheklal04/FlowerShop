@@ -1,0 +1,13 @@
+<div class="row marketing">
+  <h4>Cart</h4>
+  <ul class="row list-unstyled" ng-repeat="(sku, order) in cart">    
+    <li class="well">
+      <p>{{order.quantity}} &nbsp {{sku}} &nbsp ${{order.price}}</p>
+        <ul class="row">
+          <li ng-repeat="(type,bundle) in order.bundles">
+            {{bundle.bundleQuantity}} &nbsp X &nbsp {{type}} &nbsp ${{bundle.pricePerBundle}}
+          </li>
+        </ul>
+    </li>
+  </ul>
+</div>
