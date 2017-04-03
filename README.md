@@ -1,5 +1,5 @@
 # FLOWER SHOP
-A simple shopping cart to buy flowers
+A simple single page shopping cart to buy flowers. Demonstrating AngularJS routing, service, BDD style testing for each module.
 
 ### Tools : Angular, Angular-Route, Jasmine, Karma, Grunt, Bootstrap, HTML, CSS.
 
@@ -12,10 +12,9 @@ A simple shopping cart to buy flowers
   6. Quantities left after assigning maximum sized bundles will have a bundle of minimum size added to the cart.
   7. Multiple inputs can be given in each new line.
   8. Invalid user inputs and invalid flower codes will be ignored.
-  9. Demonstrates single page application using Angular-route.
-  10. Automation testing of each module(controller, services) with Karma and Jasmine.
-  11. Bundle calculation library can be found in *app/scripts/services/utilities.js*
-  12. Test Scripts for Bundle Calculation can be found in *test/spec/services/utilities.js*
+  9. Automation testing of each module(controller, services) with Karma and Jasmine.
+  10. Bundle calculation library can be found in *app/scripts/services/utilities.js*
+  11. Test Scripts for Bundle Calculation can be found in *test/spec/services/utilities.js*
 
 
 ### Install Instructions
