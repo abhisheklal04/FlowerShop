@@ -24,6 +24,7 @@ To Deploy this application on your side, follow the guidelines given below.
   3. install bower, run command: *npm install -g bower* 
   4. Install npm dependencies, run command: *npm install*
   5. Install bower dependencies, run command: *bower install*
-  6. Unit test with Karma,Jasmine with command: *npm test*
-  7. run application server with command: *npm start*
+  6. Install grunt task runner: *npm install -g grunt*
+  7. Unit test with Karma,Jasmine with command: *npm test*
+  8. run application server with command: *npm start*
 
